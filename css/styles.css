@@ -1,0 +1,23 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.animal {
+  width: 300px;
+  color: blue;
+  float: left;
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  border-radius: 150px;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
