@@ -21,3 +21,24 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+@media screen and (max-width: 748px) {
+  .animal {
+    font-size: 10px;
+    color: red;
+  }
+
+  img {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .animal {
+    font-size: 7px;
+    color: green;
+  }
+  img {
+    height: 100px;
+  }
+}
